@@ -6,6 +6,16 @@
   user-select: none;
 }
 
+.fixed-top-left {
+  position: fixed; /* 使用固定定位 */
+  top: 0; /* 距离顶部0像素 */
+  left: 0; /* 距离左边0像素 */
+  background-color: #547FEB; /* 背景色 */
+  padding: 10px; /* 内边距 */
+  border: 1px solid blue; /* 边框 */
+  color: #FFF;
+}
+
 :root {
   --bg: #454954;
   --fg: #e3e4e8;
